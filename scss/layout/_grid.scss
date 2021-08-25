@@ -1,0 +1,125 @@
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 0;
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+    @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+    }
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 0;
+   align-items: center;
+   @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+}
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    gap: 15px;
+    grid-template-areas: 
+    "one two three"
+    "four five five"
+    ;
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    }
+}
+
+.one {
+    grid-area: one;
+    height: 380px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)),url('/images/leicester.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.two {
+    grid-area: two;
+    height: 380px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)), url('/images/cardiff.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.three {
+    grid-area: three;
+    height: 380px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)),url('/images/london.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.four {
+    grid-area: four;
+    height: 380px;
+  background-image:  linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)),url('/images/birmingham.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.five {
+    grid-area: five;
+    overflow: hidden;  /* NEW */
+  width: auto; 
+  height: 380px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)),url('/images/manchester.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+        grid-column-gap: 40px;
+    }
+}

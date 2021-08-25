@@ -1,0 +1,40 @@
+
+    .blog-img-one {
+        @include blog-img(url('/images/one.jpg'))
+    }
+
+
+    .blog-img-two {
+        @include blog-img(url('/images/two.jpg'))
+    }
+
+    .blog-img-three {
+        @include blog-img(url('/images/three.jpg'))
+    }
+
+    .blog-img-four {
+        @include blog-img(url('/images/four.jpg'))
+    }
+
+    .blog-img-five {
+        @include blog-img(url('/images/five.jpg'))
+    }
+
+    .blog-img-six {
+        @include blog-img(url('/images/six.jpg'))
+    }
+
+    .news {
+        padding: 80px 0;
+        background-color: $light-grey;
+    }
+
+    .news-block {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .news-padding {
+        padding: 15px 10px;
+    }

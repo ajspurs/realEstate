@@ -1,0 +1,21 @@
+$primary-orange: #FF6645;
+$light-grey: #F2F2F2;
+
+.primary-orange {
+    color: $primary-orange;
+}
+.white {
+    color: white !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.grey-large {
+    background-color: $light-grey;
+}
+
+.bg-white {
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+header {
+    height: 450px;
+    background: linear-gradient(rgba(2, 2, 2, 0.404), rgba(0, 0, 0, 0.336)), url('/images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.orange-block {
+    background-color: $primary-orange;
+    padding: 30px 0;
+    display: flex;
+    bottom: 0;
+    margin-top: -60px;
+    @media (max-width: 550px) {
+        display: none;
+    }
+}

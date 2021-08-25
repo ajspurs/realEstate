@@ -1,0 +1,43 @@
+.orange-btn {
+    background-color: $primary-orange;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.clear-btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    border: 1px solid white;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.white-btn {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.clear-btn-black {
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px;
+    border: 1px solid black;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 3px;
+}

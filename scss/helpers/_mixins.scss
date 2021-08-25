@@ -1,0 +1,7 @@
+@mixin blog-img ($url) {
+    height: 300px;
+        background: $url;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+}

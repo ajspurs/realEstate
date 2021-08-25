@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 960px;
+    padding: 0 20px;
+}
+
+.nav-container {
+    @media (min-width: 768px) {
+     max-width: 960px;
+    padding: 0 20px;
+    }
+}

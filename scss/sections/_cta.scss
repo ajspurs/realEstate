@@ -1,0 +1,16 @@
+.cta {
+    background-color: $primary-orange;
+    padding: 40px 0;
+}
+
+.cta-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-left {
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
